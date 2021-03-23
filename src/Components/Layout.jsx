@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
           <Navbar.Brand href="#home">ECoin Dashboard</Navbar.Brand>
         </Container>
       </Navbar>
-      {children}
+      <Container className="App">{children}</Container>
     </>
   );
 };
